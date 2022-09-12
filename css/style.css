@@ -106,6 +106,11 @@ ul, ol {
   line-height: 19px;
   color: #0D0C22;
   padding: 8px 17px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.header__right .registration:hover {
+  color: #2720BF;
 }
 .header__right .come, .header__right .exit {
   height: 35px;
@@ -117,6 +122,12 @@ ul, ol {
   border-radius: 6px;
   padding: 8px 17px;
   margin-left: 10px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.header__right .come:hover, .header__right .exit:hover {
+  background: #2720BF;
+  color: #FFFFFF;
 }
 
 .header__user {
@@ -346,6 +357,11 @@ ul, ol {
   font-size: 15px;
   line-height: 25px;
   color: #2D2C41;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.main_card__right .input input:focus {
+  border-color: #2720BF;
 }
 .main_card__right .input input::-webkit-input-placeholder {
   color: #2D2C41;
@@ -393,6 +409,11 @@ ul, ol {
   line-height: 25px;
   color: #FFFFFF;
   margin-bottom: 15px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.main_card__right .btn:hover {
+  background: #4169E1;
 }
 .main_card__right .text {
   font-weight: 300;
@@ -484,6 +505,11 @@ ul, ol {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.profile__person .top .link:hover {
+  background: #4169E1;
 }
 .profile__person .img {
   width: 150px;
@@ -614,8 +640,6 @@ ul, ol {
 .profile__block .input {
   width: 274px;
   height: 45px;
-  border: 1px solid #E8E6F3;
-  border-radius: 6px;
   margin-right: 21px;
   margin-bottom: 15px;
   position: relative;
@@ -700,8 +724,14 @@ ul, ol {
   color: #2D2C41;
   padding-left: 20px;
   padding-right: 24px;
-  border: 0;
+  border-radius: 6px;
+  border: 1px solid #E8E6F3;
   background-color: transparent;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.profile__block .input input:focus {
+  border-color: #2720BF;
 }
 .profile__block .input input::-webkit-input-placeholder {
   color: #AFAEC3;
@@ -734,6 +764,11 @@ ul, ol {
   line-height: 19px;
   color: #FFFFFF;
   margin-top: 5px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.profile__block .save_btn:hover {
+  background-color: #4169E1;
 }
 
 .profile__right {
@@ -928,6 +963,8 @@ ul, ol {
   padding: 5px;
   position: relative;
   cursor: pointer;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 .profile__user .images .file input::after {
   content: "Сменить аватар";
@@ -951,6 +988,15 @@ ul, ol {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.profile__user .images .file input:hover {
+  border-color: #2720BF;
+}
+.profile__user .images .file input:hover::after {
+  background-color: #2720BF;
+  color: #FFFFFF;
 }
 .profile__user .inputs {
   width: 274px;
@@ -959,8 +1005,6 @@ ul, ol {
 .profile__user .input {
   width: 100%;
   height: 45px;
-  border: 1px solid #E8E6F3;
-  border-radius: 6px;
   margin-right: 21px;
   margin-bottom: 15px;
   position: relative;
@@ -985,8 +1029,14 @@ ul, ol {
   color: #2D2C41;
   padding-left: 20px;
   padding-right: 24px;
-  border: 0;
+  border-radius: 6px;
+  border: 1px solid #E8E6F3;
   background-color: transparent;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.profile__user .input input:focus {
+  border-color: #2720BF;
 }
 .profile__user .input input::-webkit-input-placeholder {
   color: #AFAEC3;
@@ -1033,6 +1083,11 @@ ul, ol {
   font-size: 15px;
   line-height: 19px;
   color: #2D2C41;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.profile__user .tetxarea textarea:focus {
+  border-color: #2720BF;
 }
 
 .profile__humans {
@@ -1094,6 +1149,11 @@ ul, ol {
   top: 56px;
   left: 56px;
   z-index: 2;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.profile__humans .human .link:hover {
+  background: #4169E1;
 }
 .profile__humans .human .img {
   width: 96px;
@@ -1165,6 +1225,11 @@ ul, ol {
   border: 1px solid #E8E6F3;
   border-radius: 5px;
   padding: 0 20px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.modal__block .input input:focus {
+  border-color: #2720BF;
 }
 .modal__block .btn {
   width: 100%;
@@ -1185,6 +1250,11 @@ ul, ol {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.modal__block .btn:hover {
+  background: #4169E1;
 }
 .modal__block .checkbox {
   display: -webkit-box;
@@ -1215,7 +1285,7 @@ ul, ol {
   z-index: -1;
 }
 .modal__block .checkbox .check label {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 15px;
   line-height: 25px;
   color: #84839E;
@@ -1239,10 +1309,13 @@ ul, ol {
   border: 0;
 }
 .modal__block .checkbox .pass {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 15px;
   line-height: 25px;
   color: #463EDF;
+}
+.modal__block .checkbox .pass:hover {
+  color: #0141ff;
 }
 
 .typical__block {
@@ -1333,6 +1406,11 @@ ul, ol {
   font-size: 15px;
   line-height: 19px;
   color: #2D2C41;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.profile__settings .input input:focus {
+  border-color: #2720BF;
 }
 .profile__settings .input input::-webkit-input-placeholder {
   color: #AFAEC3;
@@ -1359,6 +1437,11 @@ ul, ol {
   line-height: 19px;
   color: #FFFFFF;
   margin-top: 5px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.profile__settings .save_btn:hover {
+  background: #4169E1;
 }
 .profile__settings .radio {
   display: -webkit-box;
