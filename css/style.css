@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 *, *::before, *::after {
   margin: 0;
@@ -954,7 +953,10 @@ ul, ol {
   color: #AFAEC3;
   margin-bottom: 9px;
 }
-.profile__user .images .file input {
+.profile__user .images .input_file {
+  position: relative;
+}
+.profile__user .images .input_file input {
   width: 158px;
   height: 35px;
   border: 1px solid #E8E6F3;
@@ -966,20 +968,18 @@ ul, ol {
   cursor: pointer;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
+  position: relative;
+  z-index: 1;
+  opacity: 0;
 }
-.profile__user .images .file input::after {
-  content: "Сменить аватар";
+.profile__user .images .input_file .btn {
+  border: 1px solid #E8E6F3;
   width: 100%;
   height: 100%;
-  background-color: #FFFFFF;
-  z-index: 1;
   position: absolute;
   top: 0;
   left: 0;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 19px;
-  color: #0D0C22;
+  border-radius: 6px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -989,14 +989,17 @@ ul, ol {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #0D0C22;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-.profile__user .images .file input:hover {
+.profile__user .images .input_file:hover .btn {
   border-color: #2720BF;
-}
-.profile__user .images .file input:hover::after {
-  background-color: #2720BF;
+  background: #2720BF;
   color: #FFFFFF;
 }
 .profile__user .inputs {
@@ -2058,7 +2061,7 @@ input:checked + .slider:before {
     line-height: 17px;
   }
 
-  .profile__user .images .file input::after {
+  .profile__user .images .file .input_file .btn {
     font-size: 13px;
     line-height: 17px;
   }
