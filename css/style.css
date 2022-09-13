@@ -879,7 +879,7 @@ ul, ol {
           align-items: center;
   font-weight: 600;
   font-size: 15px;
-  line-height: 19px;
+  line-height: 14px;
   color: #2D2C41;
   margin-bottom: 26px;
 }
@@ -893,6 +893,10 @@ ul, ol {
 }
 .profile__aside .item:hover svg path, .profile__aside .item.active svg path {
   fill: #463EDF;
+}
+.profile__aside .li:nth-child(5) .item:hover svg path, .profile__aside .li:nth-child(5) .item.active svg path {
+  fill: transparent;
+  stroke: #463EDF;
 }
 
 .profile__info {
@@ -1889,6 +1893,8 @@ input:checked + .slider:before {
   }
 
   .profile__person .name {
+    max-width: 200px;
+    width: 100%;
     height: 42px;
     margin-left: 95px;
     font-size: 19px;
@@ -1901,7 +1907,6 @@ input:checked + .slider:before {
     left: 0;
     font-size: 14px;
     line-height: 18px;
-    text-align: center;
     padding: 0 15px;
   }
 
